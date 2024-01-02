@@ -1,0 +1,14 @@
+.coctails_container{
+    padding: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+li{
+    color: white;
+    list-style-type: disc;
+
+}

@@ -7,6 +7,7 @@ import RegistrationForm from "./components/RegistrationForm";
 import RefInput from "./components/RefInput";
 import NotFoundPage from "./components/NotFoundPage";
 import SingleUserPage from "./components/SingleUserPage";
+import Coctails from "./components/Coctails";
 
 import { createContext, useState } from "react";
 import { Routes, Route } from "react-router";
@@ -29,6 +30,7 @@ const App = () => {
     <UsersContext.Provider value={{ usersCount, setUsersCount, longestName, setLongestName }}>
       <div className="App">
         <Header />
+        <Coctails/>
         <Routes>
           <Route path={HOME_PATH} element={<HomePage />} />
           <Route path={PRODUCTS_PATH} element={<Products />} />
